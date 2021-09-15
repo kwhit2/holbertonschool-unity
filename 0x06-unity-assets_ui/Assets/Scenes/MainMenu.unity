@@ -237,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 194}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 0, y: 205}
+  m_SizeDelta: {x: 550, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432864974
 MonoBehaviour:
@@ -484,8 +484,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -16}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -7.0306, y: 15.4613}
+  m_SizeDelta: {x: 85, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943220411
 MonoBehaviour:
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e1cd80c3679683488b59da0294c20da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5636b2c66be2dcf468ddf569e60c8b7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -726,7 +726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -31}
+  m_AnchoredPosition: {x: 0, y: -2.9999883}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406121580
@@ -852,7 +852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174, y: -31}
+  m_AnchoredPosition: {x: -174, y: -3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586010658
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: -31}
+  m_AnchoredPosition: {x: 173, y: -2.9999883}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595723028
@@ -1320,6 +1320,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 777185633}
     m_Modifications:
+    - target: {fileID: 2002276838699899911, guid: fc9849009bc145a4f978c70757457188, type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2002276838699899913, guid: fc9849009bc145a4f978c70757457188, type: 3}
       propertyPath: m_Name
       value: OptionsText
@@ -1390,7 +1394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2002276839237593763, guid: fc9849009bc145a4f978c70757457188, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -130
+      value: -124
       objectReference: {fileID: 0}
     - target: {fileID: 2002276839237593763, guid: fc9849009bc145a4f978c70757457188, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1491,7 +1495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6070626632583404798, guid: 8ef626757d82a4b46bbbb239ab45d113, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 144
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 6070626632583404798, guid: 8ef626757d82a4b46bbbb239ab45d113, type: 3}
       propertyPath: m_AnchoredPosition.y
