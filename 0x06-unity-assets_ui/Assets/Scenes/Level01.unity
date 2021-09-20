@@ -9040,6 +9040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5781aa3570c54014ba4f72771ab84147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInverted: 1
 --- !u!1 &1658529500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: deff8b43f54c262428f235daf0e87a98, type: 3}
@@ -12177,6 +12178,10 @@ PrefabInstance:
     - target: {fileID: 3521632496182562390, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3521632496182562390, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
