@@ -12074,14 +12074,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3104913316499771038, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
+    - target: {fileID: 919217792, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 637481763}
-    - target: {fileID: 3104913316499771038, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resume
-      objectReference: {fileID: 0}
+    - target: {fileID: 1574246035, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 637481763}
+    - target: {fileID: 3104913314651833625, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 637481763}
+    - target: {fileID: 3453605237161254415, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 637481763}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -12128,7 +12136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.502319
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12136,15 +12144,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3521632496182562386, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -12169,10 +12177,6 @@ PrefabInstance:
     - target: {fileID: 3521632496182562390, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 3521632496182562390, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b0ee4b1477342647bcca91664d1e6c1, type: 3}
