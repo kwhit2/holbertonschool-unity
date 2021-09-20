@@ -13,6 +13,8 @@ public class Timer : MonoBehaviour
 
     private TimeSpan activeTime;
 
+    public Text FinalTime;
+
     // goes with commented out Stopwatch code in the Update method
     // private Stopwatch timer = new Stopwatch();
 
@@ -32,5 +34,14 @@ public class Timer : MonoBehaviour
         TimerText.text = activeTimeStr;
         // could not get timer to display 2 decimal places for milliseconds this way
         // TimerText.text = timer.Elapsed.Minutes + ":" + timer.Elapsed.Seconds.ToString("00") + "." + timer.Elapsed.Milliseconds.ToString("00");
+    }
+
+    public void Win()
+    {
+        // when the player touches the flag, the player’s finish time is displayed in FinalTime in WinCanvas
+        activeTime = TimeSpan.FromSeconds(elapsedTime);
+        string activeTimeStr = activeTime.ToString("mm':'ss'.'ff");
+        FinalTime.text = activeTimeStr;
+        GetComponent<Timer>().TimerText.enabled = false;
     }
 }
