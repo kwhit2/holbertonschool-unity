@@ -854,7 +854,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 777185634}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: Invert
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &730444524
 GameObject:
@@ -1041,6 +1053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ea109fdef952ce40a7350408bc1a0d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInverted: 0
+  yInvertToggle: {fileID: 719385537}
 --- !u!1 &846681261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,6 +2379,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 777185633}
     m_Modifications:
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 777185634}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289924040309478412, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3289924040309478413, guid: 53b7b61054a5f9545a8c6156bd888a61, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

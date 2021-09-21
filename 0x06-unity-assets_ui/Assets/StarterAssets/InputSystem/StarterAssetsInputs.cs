@@ -57,7 +57,14 @@ namespace StarterAssets
 
 		public void LookInput(Vector2 newLookDirection)
 		{
-			look = newLookDirection;
+			if (PlayerPrefs.GetInt("isYInverted") == 0)
+			{
+				look = newLookDirection;
+			}
+			else
+			{
+				look = new Vector2(newLookDirection.x, -newLookDirection.y);
+			}
 		}
 
 		public void JumpInput(bool newJumpState)

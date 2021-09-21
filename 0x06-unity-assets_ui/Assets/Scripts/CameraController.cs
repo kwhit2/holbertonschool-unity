@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public bool isInverted;
+    public bool isInverted = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.GetInt("isYInverted") == 1)
+        {
+            isInverted = true;
+        }
+        else
+        {
+            isInverted = false;
+        }
     }
 
     // Update is called once per frame
