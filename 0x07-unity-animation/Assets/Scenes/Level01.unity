@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &17952461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 828493570}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_Name
+      value: ty
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 0372af52d2891a548b52f479e7538509, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3d944b0d13b788d4f964ec2181405e40, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0372af52d2891a548b52f479e7538509, type: 3}
 --- !u!1001 &20762762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1169,6 +1230,10 @@ PrefabInstance:
     - target: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_Name
       value: PlayerFollowCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_RootOrder
@@ -4311,11 +4376,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828493563}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b39c087d3a3f62241bb7ae7acba41223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &828493570 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1293029876712600392, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+  m_PrefabInstance: {fileID: 1931049761}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &828493571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4576,6 +4646,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: ab14c898eaf012f4b95344ca5446db48, type: 3}
   m_PrefabInstance: {fileID: 886020413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &912285033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5151727181036186230, guid: bf4c3e364fabe7b48a6db11df6f160e5, type: 3}
+  m_PrefabInstance: {fileID: 5151727180477091577}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &912833394
 PrefabInstance:
@@ -10716,6 +10791,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 29811326, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1293029876712600392, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12137,6 +12216,7 @@ GameObject:
   - component: {fileID: 2144066058}
   - component: {fileID: 2144066057}
   - component: {fileID: 2144066060}
+  - component: {fileID: 2144066061}
   m_Layer: 0
   m_Name: CutsceneCamera
   m_TagString: Untagged
@@ -12151,7 +12231,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144066056}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2144066058
 Camera:
   m_ObjectHideFlags: 0
@@ -12228,6 +12308,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2144066061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144066056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa7123fd2c21c04da7c0f8e2cff76ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCapsule: {fileID: 828493563}
+  Player: {fileID: 606156634}
+  PlayerFollowCamera: {fileID: 2146351295}
+  TimerCanvas: {fileID: 912285033}
+  CutsceneCamera: {fileID: 2144066058}
+--- !u!1 &2146351295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+  m_PrefabInstance: {fileID: 291980003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3521632495478115887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12447,6 +12549,10 @@ PrefabInstance:
     - target: {fileID: 5151727181036186230, guid: bf4c3e364fabe7b48a6db11df6f160e5, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151727181036186230, guid: bf4c3e364fabe7b48a6db11df6f160e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf4c3e364fabe7b48a6db11df6f160e5, type: 3}
