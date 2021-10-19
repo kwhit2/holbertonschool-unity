@@ -11,9 +11,10 @@ public class WinTrigger : MonoBehaviour
     private Timer timerScript;
     
     public AudioSource CheeryMonday;
+    public AudioSource VictoryPiano;
 
     public bool cheerySong = true;
-    // public bool victorySong = false;
+    public bool victorySong = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +41,14 @@ public class WinTrigger : MonoBehaviour
             {
                 cheerySong = false;
                 CheeryMonday.Stop();
+                victorySong = false;
+                VictoryPiano.Play();
             }
+            // if (!VictoryPiano.isPlaying && VictoryPiano == false)
+            // {
+            //     victorySong = true;
+            //     VictoryPiano.Play();
+            // }
         }
     }
 }
