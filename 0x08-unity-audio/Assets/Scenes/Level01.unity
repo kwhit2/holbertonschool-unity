@@ -3867,6 +3867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseCanvas: {fileID: 1847394425}
+  UnpausedNotMuffled: {fileID: 24500006, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  PauseMuffled: {fileID: -3412865146371436086, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
 --- !u!4 &637481764
 Transform:
   m_ObjectHideFlags: 0

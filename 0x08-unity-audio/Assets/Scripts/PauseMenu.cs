@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.Audio;
+using UnityEditor;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject PauseCanvas;
     private bool isPaused;
+
+    public AudioMixerSnapshot UnpausedNotMuffled;
+    public AudioMixerSnapshot PauseMuffled;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +44,8 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseCanvas.SetActive(true);
+        // muffle audio snapshot
+        PauseMuffled.TransitionTo(.01f);
     }
     // Resume
     public void Resume()
@@ -45,6 +53,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
         PauseCanvas.SetActive(false);
         isPaused = false;
+        // normal audio snapshot
+        UnpausedNotMuffled.TransitionTo(.01f);
     }
 
     // To enable mouse in pause menu
