@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class OptionsMenu : MonoBehaviour
 {
     public bool isInverted;
     public GameObject yInvertToggle;
+
+    public AudioMixer BGM;
 
     // Start is called before the first frame update
     void Start()
@@ -54,5 +57,11 @@ public class OptionsMenu : MonoBehaviour
     public void Invert()
     {
         isInverted = !isInverted;
+    }
+
+    // BGM slider audio toggle
+    public void SetToggle(float sliderValue)
+    {
+        BGM.SetFloat("BGMVol", Mathf.Log10(sliderValue) * 20);
     }
 }

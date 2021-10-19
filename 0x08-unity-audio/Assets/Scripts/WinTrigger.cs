@@ -41,14 +41,9 @@ public class WinTrigger : MonoBehaviour
             {
                 cheerySong = false;
                 CheeryMonday.Stop();
-                victorySong = false;
+                victorySong = true;
                 VictoryPiano.Play();
             }
-            // if (!VictoryPiano.isPlaying && VictoryPiano == false)
-            // {
-            //     victorySong = true;
-            //     VictoryPiano.Play();
-            // }
         }
     }
 }
