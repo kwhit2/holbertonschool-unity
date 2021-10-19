@@ -9,6 +9,11 @@ public class WinTrigger : MonoBehaviour
     public GameObject WinCanvas;
 
     private Timer timerScript;
+    
+    public AudioSource CheeryMonday;
+
+    public bool cheerySong = true;
+    // public bool victorySong = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +36,11 @@ public class WinTrigger : MonoBehaviour
             // other.gameObject.GetComponent<Timer>().enabled = false;
             // other.gameObject.GetComponent<Timer>().TimerText.color = Color.green;
             // other.gameObject.GetComponent<Timer>().TimerText.fontSize = 60;
+            if (CheeryMonday.isPlaying)
+            {
+                cheerySong = false;
+                CheeryMonday.Stop();
+            }
         }
     }
 }

@@ -1088,6 +1088,7 @@ GameObject:
   - component: {fileID: 233390946}
   - component: {fileID: 233390945}
   - component: {fileID: 233390947}
+  - component: {fileID: 233390948}
   m_Layer: 0
   m_Name: CheeryMonday
   m_TagString: Untagged
@@ -1218,6 +1219,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!114 &233390948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233390944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc99696e3ff476d46b35972bc6043253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 828493563}
+  WinCanvas: {fileID: 5550679235813496081}
+  CheeryMonday: {fileID: 233390945}
+  cheerySong: 1
 --- !u!1 &235838088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c7a59bf400668ca49b2d9ecc3a0771e4, type: 3}
@@ -3828,6 +3845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 828493563}
   WinCanvas: {fileID: 5550679235813496081}
+  CheeryMonday: {fileID: 233390945}
+  cheerySong: 1
 --- !u!1001 &683792512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4631,6 +4650,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &828493567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828493563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc99696e3ff476d46b35972bc6043253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 828493563}
+  WinCanvas: {fileID: 5550679235813496081}
+  CheeryMonday: {fileID: 233390945}
+  cheerySong: 1
 --- !u!4 &828493570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1293029876712600392, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
