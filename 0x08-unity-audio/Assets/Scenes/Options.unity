@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 418031637}
   - component: {fileID: 418031638}
+  - component: {fileID: 418031639}
   m_Layer: 5
   m_Name: SFXSlider
   m_TagString: Untagged
@@ -443,13 +444,43 @@ MonoBehaviour:
   m_FillRect: {fileID: 1042857791}
   m_HandleRect: {fileID: 1283303733}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 418031639}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SetSFXToggle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &418031639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418031636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea109fdef952ce40a7350408bc1a0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInverted: 0
+  yInvertToggle: {fileID: 719385537}
+  BGM: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  SFX: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  BGMSlider: {fileID: 625681331}
+  SFXSlider: {fileID: 418031638}
 --- !u!1 &423022748
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +803,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 625681332}
         m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
-        m_MethodName: SetToggle
+        m_MethodName: SetBGMToggle
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -797,6 +828,9 @@ MonoBehaviour:
   isInverted: 0
   yInvertToggle: {fileID: 719385537}
   BGM: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  SFX: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  BGMSlider: {fileID: 625681331}
+  SFXSlider: {fileID: 418031638}
 --- !u!1 &719385537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1117,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isInverted: 0
   yInvertToggle: {fileID: 719385537}
-  BGM: {fileID: 0}
+  BGM: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  SFX: {fileID: 24100000, guid: fb1fc95a10130a748bc31542dd9b78f6, type: 2}
+  BGMSlider: {fileID: 625681331}
+  SFXSlider: {fileID: 418031638}
 --- !u!1 &846681261
 GameObject:
   m_ObjectHideFlags: 0
