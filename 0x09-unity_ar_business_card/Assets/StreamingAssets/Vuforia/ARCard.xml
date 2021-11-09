@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Artificial_Intelligence1" size="10.000000 10.000000" />
+    <ImageTarget name="Artificial_Intelligence3" size="10.000000 10.000000" />
+    <ImageTarget name="seahorse-QR" size="10.000000 9.982669" />
+    <ImageTarget name="NugFT_v1" size="10.000000 10.187266" />
+  </Tracking>
+</QCARConfig>
