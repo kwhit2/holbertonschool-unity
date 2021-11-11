@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="BTC-CB-qr-code" size="10.000000 10.000000" />
+    <ImageTarget name="BTC-Trust-qr-code" size="10.000000 10.000000" />
     <ImageTarget name="Ai3-qr-code-2" size="10.000000 10.000000" />
     <ImageTarget name="Ai3-qr-code" size="10.000000 10.000000" />
     <ImageTarget name="Artificial_Intelligence1" size="10.000000 10.000000" />
